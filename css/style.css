@@ -110,3 +110,14 @@ p {
   margin: 20px 0;
   font-weight: bold;
 }
+
+.profile-picture img {
+  width: 100px;
+  height: 100px;
+}
+@media (min-width: 768px) {
+  .profile-picture img {
+    width: 200px;
+    height: 200px;
+  }
+}
